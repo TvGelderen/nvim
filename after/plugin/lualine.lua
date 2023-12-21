@@ -1,6 +1,6 @@
 require('lualine').setup({
     options = {
-        icons_enables = true,
-        theme = 'auto'
+        icons_enabled = true,
+        theme = 'tokyonight',
     }
 })
