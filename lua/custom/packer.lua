@@ -17,6 +17,9 @@ return require('packer').startup(function(use)
   use 'tpope/vim-fugitive'
   use 'nvim-tree/nvim-web-devicons'
 
+  use 'numToStr/Comment.nvim'
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
+
   use {
       'nvim-lualine/lualine.nvim',
       requires = { 'nvim-tree/nvim-web-devicons' }
