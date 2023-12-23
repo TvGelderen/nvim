@@ -4,6 +4,14 @@ require('bufferline').setup({
         themable = false,
         indicator = { style = 'none' },
         tab_size = 18,
+        offsets = {
+            {
+                filetype = "NvimTree",
+                text = "File Explorer",
+                text_align = "center",
+                separator = true
+            }
+        },
         show_buffer_close_icons = false,
         show_tab_indicators = false,
         separator_style = { '', '' },
