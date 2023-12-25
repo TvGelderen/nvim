@@ -6,7 +6,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = { 'tsserver', 'eslint', 'volar', 'cssls' },
+  ensure_installed = { 'tsserver', 'eslint', 'volar', 'cssls', 'rust_analyzer', 'gopls' },
   handlers = {
     lsp_zero.default_setup,
   },
