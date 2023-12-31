@@ -173,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/timen/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["wrapping.nvim"] = {
+    loaded = true,
+    path = "/home/timen/.local/share/nvim/site/pack/packer/start/wrapping.nvim",
+    url = "https://github.com/andrewferrier/wrapping.nvim"
   }
 }
 

@@ -15,7 +15,11 @@ return require('packer').startup(function(use)
   use ('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use 'mbbill/undotree'
   use 'tpope/vim-fugitive'
+
   use 'nvim-tree/nvim-web-devicons'
+  use 'nvim-tree/nvim-tree.lua'
+
+  use 'andrewferrier/wrapping.nvim'
 
   use 'numToStr/Comment.nvim'
   use 'JoosepAlviste/nvim-ts-context-commentstring'
@@ -30,8 +34,6 @@ return require('packer').startup(function(use)
       tag = "*",
       requires = { 'nvim-tree/nvim-web-devicons' }
   }
-
-  use 'nvim-tree/nvim-tree.lua'
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
